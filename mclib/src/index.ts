@@ -8,6 +8,8 @@ export {
   ModSearchMetadata,
 } from "./types";
 
+export {  } from "./repos/utils";
+
 export type {
   MCConfig,
   ModAndRelease,
@@ -18,5 +20,5 @@ export type {
 
 export { ModQueryService, Constraints } from "./ModQueryService";
 
-export { ModrinthRepository, CurseForgeRepository } from "./repos";
+export { ModrinthRepository, CurseForgeRepository, createModRepository } from "./repos";
 export type { IRepository } from "./repos";
